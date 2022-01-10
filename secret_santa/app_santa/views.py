@@ -4,6 +4,6 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def ping(request):
-    response = "200 OK"
+    response = "OK"
     return HttpResponse(response)
 
